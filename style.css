@@ -1,0 +1,33 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    box-sizing: content-box;
+    height: 600px;
+    width: 600px;
+    border: solid 2px grey;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: solid 1px grey;
+    background-color: #F5F5F5;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    margin: 1rem;
+    cursor: pointer;
+}
